@@ -1,0 +1,37 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- QR glyph: 3 finder patterns + random data modules, in white -->
+    <group>
+        <!-- finder top-left -->
+        <path
+            android:fillColor="#FFFFFFFF"
+            android:pathData="M28,28 h16 a4,4 0 0 1 4,4 v16 a4,4 0 0 1 -4,4 h-16 a4,4 0 0 1 -4,-4 v-16 a4,4 0 0 1 4,-4 z" />
+        <path
+            android:fillColor="#FF0B1F3A"
+            android:pathData="M33,33 h6 a1,1 0 0 1 1,1 v6 a1,1 0 0 1 -1,1 h-6 a1,1 0 0 1 -1,-1 v-6 a1,1 0 0 1 1,-1 z M43,36 h2 a0,0 0 0 1 0,0 v5 a0,0 0 0 1 0,0 h-2 a0,0 0 0 1 0,0 v-5 a0,0 0 0 1 0,0 z M36,43 h5 a0,0 0 0 1 0,0 v2 a0,0 0 0 1 0,0 h-5 a0,0 0 0 1 0,0 v-2 a0,0 0 0 1 0,0 z" />
+        <!-- finder top-right -->
+        <path
+            android:fillColor="#FFFFFFFF"
+            android:pathData="M60,28 h16 a4,4 0 0 1 4,4 v16 a4,4 0 0 1 -4,4 h-16 a4,4 0 0 1 -4,-4 v-16 a4,4 0 0 1 4,-4 z" />
+        <path
+            android:fillColor="#FF0B1F3A"
+            android:pathData="M65,33 h6 a1,1 0 0 1 1,1 v6 a1,1 0 0 1 -1,1 h-6 a1,1 0 0 1 -1,-1 v-6 a1,1 0 0 1 1,-1 z M75,36 h2 a0,0 0 0 1 0,0 v5 a0,0 0 0 1 0,0 h-2 a0,0 0 0 1 0,0 v-5 a0,0 0 0 1 0,0 z M69,43 h4 a1,1 0 0 1 1,1 v0 a1,1 0 0 1 -1,1 h-4 a1,1 0 0 1 -1,-1 v0 a1,1 0 0 1 1,-1 z" />
+        <!-- finder bottom-left -->
+        <path
+            android:fillColor="#FFFFFFFF"
+            android:pathData="M28,60 h16 a4,4 0 0 1 4,4 v16 a4,4 0 0 1 -4,4 h-16 a4,4 0 0 1 -4,-4 v-16 a4,4 0 0 1 4,-4 z" />
+        <path
+            android:fillColor="#FF0B1F3A"
+            android:pathData="M33,65 h6 a1,1 0 0 1 1,1 v6 a1,1 0 0 1 -1,1 h-6 a1,1 0 0 1 -1,-1 v-6 a1,1 0 0 1 1,-1 z M40,75 h3 a1,1 0 0 1 1,1 v0 a1,1 0 0 1 -1,1 h-3 a1,1 0 0 1 -1,-1 v0 a1,1 0 0 1 1,-1 z" />
+        <!-- data modules -->
+        <path
+            android:fillColor="#FFFFFFFF"
+            android:pathData="M48,36 h8 a2,2 0 0 1 2,2 v0 a2,2 0 0 1 -2,2 h-8 a2,2 0 0 1 -2,-2 v0 a2,2 0 0 1 2,-2 z M48,44 h4 a2,2 0 0 1 2,2 v0 a2,2 0 0 1 -2,2 h-4 a2,2 0 0 1 -2,-2 v0 a2,2 0 0 1 2,-2 z" />
+        <path
+            android:fillColor="#FFFFFFFF"
+            android:pathData="M48,56 h8 a2,2 0 0 1 2,2 v0 a2,2 0 0 1 -2,2 h-8 a2,2 0 0 1 -2,-2 v0 a2,2 0 0 1 2,-2 z M62,62 h6 a2,2 0 0 1 2,2 v0 a2,2 0 0 1 -2,2 h-6 a2,2 0 0 1 -2,-2 v0 a2,2 0 0 1 2,-2 z M52,74 h14 a2,2 0 0 1 2,2 v0 a2,2 0 0 1 -2,2 h-14 a2,2 0 0 1 -2,-2 v0 a2,2 0 0 1 2,-2 z M70,52 h10 a2,2 0 0 1 2,2 v0 a2,2 0 0 1 -2,2 h-10 a2,2 0 0 1 -2,-2 v0 a2,2 0 0 1 2,-2 z M70,68 h8 a2,2 0 0 1 2,2 v0 a2,2 0 0 1 -2,2 h-8 a2,2 0 0 1 -2,-2 v0 a2,2 0 0 1 2,-2 z" />
+    </group>
+</vector>

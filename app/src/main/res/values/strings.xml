@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">QR Vault</string>
+
+    <!-- Navigation / general -->
+    <string name="back">Back</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+    <string name="save">Save</string>
+    <string name="share">Share</string>
+    <string name="close">Close</string>
+    <string name="done">Done</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="open_fullscreen">Open fullscreen</string>
+    <string name="error_generic">Something went wrong. Please try again.</string>
+    <string name="not_available">Not available</string>
+
+    <!-- Home -->
+    <string name="home_title">QR Vault</string>
+    <string name="search_hint">Search name, provider or description</string>
+    <string name="clear_search">Clear search</string>
+    <string name="add_qr">Add QR</string>
+    <string name="sort">Sort</string>
+    <string name="view_mode">View mode</string>
+    <string name="grid_view">Grid view</string>
+    <string name="list_view">List view</string>
+
+    <string name="empty_state_title">No QR codes yet</string>
+    <string name="empty_state_body">Add your banking or payment QR codes to access them quickly.</string>
+    <string name="empty_search_title">No results</string>
+    <string name="empty_search_body">No QR codes match "%1$s". Try a different search.</string>
+
+    <string name="sort_recent_added">Recently Added</string>
+    <string name="sort_recent_updated">Recently Updated</string>
+    <string name="sort_name_az">Name A–Z</string>
+    <string name="sort_name_za">Name Z–A</string>
+    <string name="sort_provider_az">Provider A–Z</string>
+
+    <!-- QR actions -->
+    <string name="action_open">Open</string>
+    <string name="action_edit">Edit</string>
+    <string name="action_delete">Delete</string>
+    <string name="more_options">More options</string>
+    <string name="content_desc_qr_item">%1$s QR, %2$s</string>
+
+    <!-- Add / Edit -->
+    <string name="add_qr_title">Add QR</string>
+    <string name="edit_qr_title">Edit QR</string>
+    <string name="choose_image">Choose image</string>
+    <string name="import_from_gallery">Import from Gallery</string>
+    <string name="take_photo">Take Photo</string>
+    <string name="change_image">Change image</string>
+    <string name="field_name">Name</string>
+    <string name="field_name_hint">e.g. Personal Maybank QR</string>
+    <string name="field_provider">Provider</string>
+    <string name="field_provider_hint">e.g. Maybank</string>
+    <string name="field_description">Description (optional)</string>
+    <string name="field_description_hint">e.g. Main payment QR</string>
+    <string name="save_qr">Save QR</string>
+    <string name="saved_success">QR saved</string>
+    <string name="updated_success">QR updated</string>
+    <string name="deleted_success">QR deleted</string>
+    <string name="error_name_required">Please enter a name</string>
+    <string name="error_provider_required">Please enter a provider</string>
+    <string name="error_image_required">Please choose an image</string>
+    <string name="error_image_invalid">That image could not be read. Please try another one.</string>
+    <string name="no_image_selected">No image selected</string>
+    <string name="tap_to_preview">Preview</string>
+
+    <!-- Details -->
+    <string name="created">Created</string>
+    <string name="updated">Updated</string>
+    <string name="no_description">No description</string>
+
+    <!-- Delete dialog -->
+    <string name="delete_title">Delete QR code?</string>
+    <string name="delete_body">"%1$s" will be permanently removed from this device.</string>
+
+    <!-- Viewer -->
+    <string name="viewer_hint">Tap to show or hide controls</string>
+
+    <!-- Camera -->
+    <string name="camera_title">Take a photo</string>
+    <string name="camera_permission_title">Camera permission</string>
+    <string name="camera_permission_body">QR Vault needs access to the camera to scan and store your QR codes.</string>
+    <string name="camera_permission_denied">Camera permission was denied. You can still import QR images from your gallery.</string>
+    <string name="retake">Retake</string>
+    <string name="use_photo">Use photo</string>
+    <string name="capture">Capture</string>
+    <string name="camera_unavailable">Camera is not available on this device.</string>
+    <string name="try_again">Try again</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+
+    <string name="section_security">Security</string>
+    <string name="app_lock">App lock</string>
+    <string name="app_lock_desc">Require authentication to open QR Vault</string>
+    <string name="auto_lock">Auto-lock timeout</string>
+    <string name="auto_lock_immediately">Immediately</string>
+    <string name="auto_lock_1min">1 minute</string>
+    <string name="auto_lock_5min">5 minutes</string>
+    <string name="auto_lock_never">Never</string>
+    <string name="use_biometric">Use biometric unlock</string>
+    <string name="use_biometric_desc">Let fingerprint or face unlock the app</string>
+    <string name="biometric_unavailable">Biometrics are not set up on this device</string>
+    <string name="security_not_available">Device security is not set up. Enable a screen lock or biometrics first.</string>
+    <string name="set_pin">Set PIN</string>
+    <string name="change_pin">Change PIN</string>
+    <string name="lock_now">Lock now</string>
+
+    <string name="section_appearance">Appearance</string>
+    <string name="theme_mode">Theme</string>
+    <string name="theme_system">System default</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_dark">Dark</string>
+
+    <string name="section_behavior">Behavior</string>
+    <string name="default_view">Default view</string>
+    <string name="confirm_before_delete">Confirm before deleting</string>
+    <string name="confirm_before_delete_desc">Ask for confirmation when removing a QR code</string>
+
+    <string name="section_about">About</string>
+    <string name="version">Version %1$s</string>
+    <string name="privacy">Privacy</string>
+    <string name="privacy_body">Your QR codes are stored locally on this device. QR Vault does not upload your QR codes to a server.</string>
+    <string name="licenses">Open-source licenses</string>
+
+    <!-- Lock -->
+    <string name="app_locked_title">QR Vault is locked</string>
+    <string name="app_locked_body">Enter your PIN or use biometrics to continue.</string>
+    <string name="unlock">Unlock</string>
+    <string name="unlock_with_biometrics">Unlock with biometrics</string>
+    <string name="unlock_with_pin">Unlock with PIN</string>
+    <string name="use_device_credential">Use device security</string>
+    <string name="pin_incorrect">Incorrect PIN</string>
+    <string name="pin_too_many_attempts">Too many attempts. Try again in a few seconds.</string>
+    <string name="pin_set_title">Set your PIN</string>
+    <string name="pin_confirm_title">Confirm your PIN</string>
+    <string name="pin_change_title">Change your PIN</string>
+    <string name="pin_enter_current">Enter your current PIN</string>
+    <string name="pin_enter_new">Enter a new PIN</string>
+    <string name="pin_repeat_new">Repeat the new PIN</string>
+    <string name="pin_mismatch">PINs do not match</string>
+    <string name="pin_too_short">PIN must be at least 4 digits</string>
+    <string name="pin_saved">PIN saved</string>
+    <string name="pin_changed">PIN changed</string>
+    <string name="pin_incorrect_title">Incorrect PIN</string>
+
+    <!-- Share -->
+    <string name="share_qr">Share QR</string>
+    <string name="share_failed">Could not share the QR code</string>
+
+    <!-- Accessibility -->
+    <string name="content_desc_image_preview">Selected QR image preview</string>
+    <string name="content_desc_no_image">No image selected yet</string>
+    <string name="pin_delete">Delete character</string>
+    <string name="pin_confirm">Confirm PIN</string>
+</resources>
